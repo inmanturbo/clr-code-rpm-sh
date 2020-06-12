@@ -1,7 +1,7 @@
 #!/bin/bash
 
-command -v jq >/dev/null 2>&1 || { echo >&2 "I require jq but it's not installed.  Aborting."; exit 1; }
-command -v rpm >/dev/null 2>&1 || { echo >&2 "I require rpm but it's not installed.  Aborting."; exit 1; }
+command -v jq >/dev/null 2>&1 || { echo >&2 "I require jq but it's not installed. Please run 'sudo swupd install jq'. Aborting."; exit 1; }
+command -v rpm >/dev/null 2>&1 || { echo >&2 "I require rpm but it's not installed. Aborting."; exit 1; }
 
 if ! [[ $(rpm -q code) ]]; then
     echo "VsCode rpm is not installed";
