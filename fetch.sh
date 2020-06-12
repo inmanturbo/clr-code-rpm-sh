@@ -1,8 +1,8 @@
 #!/bin/bash
 
-##########Update VSCODE from rpm on Clear Linux####################
+########## Update VSCODE from rpm on Clear Linux####################
 
-#Check for permissions
+# Check for permissions
 if [[ $(id -u) -ne 0 ]] ; then echo "Please run as root" ; exit 1 ; fi
 
 #Check script dependencies
