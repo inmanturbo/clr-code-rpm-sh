@@ -38,4 +38,4 @@ download:
 	$(GCC) ./download.sh
 
 make_init:
-	chmod +x ./*.sh
+	chmod a+x ./*.sh
