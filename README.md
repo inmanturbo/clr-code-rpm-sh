@@ -13,7 +13,7 @@ sudo swupd bundle-add package-utils wget jq
 Clone this repo.
 
 ```bash
-git clone inmanturbo/clr-code-rpm-sh
+git clone https://github.com/inmanturbo/clr-code-rpm-sh.git
 ```
 Change directory
 ```bash
