@@ -7,11 +7,9 @@ if [[ $(id -u) -ne 0 ]] ; then echo "Please run as root" ; exit 1 ; fi
 
 #Check script dependencies
 command -v jq >/dev/null 2>&1 || { echo >&2 "I require jq but it's not installed.  Aborting."; exit 1; }
-command -v cat >/dev/null 2>&1 || { echo >&2 "I require cat but it's not installed.  Aborting."; exit 1; }
-command -v sed >/dev/null 2>&1 || { echo >&2 "I require sed but it's not installed.  Aborting."; exit 1; }
 command -v rpm >/dev/null 2>&1 || { echo >&2 "I require rpm but it's not installed.  Aborting."; exit 1; }
 command -v wget >/dev/null 2>&1 || { echo >&2 "I require wget but it's not installed.  Aborting."; exit 1; }
-command -v tee >/dev/null 2>&1 || { echo >&2 "I require tee but it's not installed.  Aborting."; exit 1; }
+
 
 # Curl "latest" endpoint to get json object containing 
 # info about the latest release then parse it with jq
