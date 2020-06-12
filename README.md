@@ -40,7 +40,7 @@ Also (alias)
 ```bash
 make check
 ```
-Fetch latest and update or install (do not bother checking or whitelisting -- no interaction)
+Fetch latest and update or install (do not bother checking or whitelisting, runs with no interaction)
 
 ```bash
 sudo make fetch
