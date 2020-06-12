@@ -1,6 +1,6 @@
 #!/bin/bash
 
-########## Add the vscode rpm install to swupd's whitelist on Clear Linux####################
+########## Add the vscode rpm install to swupd's whitelist on Clear Linux ####################
 #Check for permissions
 if [[ $(id -u) -ne 0 ]] ; then echo "Please run as root" ; exit 1 ; fi
 command -v cat >/dev/null 2>&1 || { echo >&2 "I require cat but it's not installed.  Aborting."; exit 1; }
