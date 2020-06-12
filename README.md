@@ -7,7 +7,7 @@
 ## How to use
 Install dependencies
 ```bash
-sudo swupd bundle-add package-utils wget jq
+sudo swupd bundle-add package-utils wget jq make
 ```
 
 Clone this repo.
