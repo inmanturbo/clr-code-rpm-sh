@@ -16,7 +16,7 @@ Change directory
 cd clr-code-rpm-sh/
 ```
 
-Install and build whitelist for swupd [optional]
+Install VsCode and build whitelist for swupd [optional]
 ```bash
 make install
 ```
