@@ -3,9 +3,7 @@
 ########## Add the vscode rpm install to swupd's whitelist on Clear Linux ####################
 #Check for permissions
 if [[ $(id -u) -ne 0 ]] ; then echo "Please run as root" ; exit 1 ; fi
-command -v cat >/dev/null 2>&1 || { echo >&2 "I require cat but it's not installed.  Aborting."; exit 1; }
-command -v sed >/dev/null 2>&1 || { echo >&2 "I require sed but it's not installed.  Aborting."; exit 1; }
-command -v tee >/dev/null 2>&1 || { echo >&2 "I require tee but it's not installed.  Aborting."; exit 1; }
+
 #prepare whitelist
 WHITELIST="/user/share/applications/code-url-handler.desktop|/usr/share/applications/code.desktop|/usr/share/bash-completion/completions/code|/usr/share/code|/usr/share/code/|/usr/bin/code";
 SWUP_DIR=/etc/swupd;
