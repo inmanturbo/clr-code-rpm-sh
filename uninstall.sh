@@ -1,6 +1,6 @@
 #!/bin/bash
 
-##########Uninstall VSCODE from rpm on Clear Linux####################
+########## Uninstall VSCODE from rpm on Clear Linux####################
 
 #Check for permissions
 if [[ $(id -u) -ne 0 ]] ; then echo "Please run as root" ; exit 1 ; fi
