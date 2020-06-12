@@ -5,6 +5,10 @@
 ## Includes script for adding it to swupd's "whitelist".
 
 ## How to use
+Install dependencies
+```bash
+sudo swupd bundle-add package-utils wget jq
+```
 
 Clone this repo.
 
