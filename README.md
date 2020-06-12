@@ -1,4 +1,4 @@
-# Install and update vscode on clear linux using rpm.
+# Install and update vscode natively on clear linux using rpm.
 
 ### A collection of simple bash scripts tied together with make, very easy to run.
 
