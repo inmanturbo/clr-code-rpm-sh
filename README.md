@@ -22,7 +22,7 @@ cd clr-code-rpm-sh/
 
 Install VsCode and build whitelist for swupd [optional]
 ```bash
-make install
+sudo make install
 ```
 ````
 Success. Rpm packages can be removed with 'rpm -e [release]'
@@ -43,11 +43,11 @@ make check
 Fetch latest and update or install (do not bother checking or whitelisting -- no interaction)
 
 ```bash
-make fetch
+sudo make fetch
 ```
 Also (alias)
 ```bash
-make update
+sudo make update
 ```
 Download latest version
 ```bash
@@ -59,11 +59,11 @@ make clean
 ```
 Uninstall
 ```bash
-make remove
+sudo make remove
 ```
 Whitelist only
 ```bash
-make whitelist
+sudo make whitelist
 ```
 
 
