@@ -32,7 +32,7 @@ Do you want to configure swupd to whitelist this package?
 #?
 ````
 
-Check for an update with optional update/install
+Check for updates with optional update/install
 ```bash
 make
 ```
