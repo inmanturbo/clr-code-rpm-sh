@@ -2,7 +2,7 @@
 
 ### A collection of simple bash scripts tied together with make, very easy to run.
 
-## Includes script for adding it to swupd's "whitelist".
+## Includes script for adding it to swupd's picky diagnose and repair "whitelist" using swupd [config](https://github.com/clearlinux/swupd-client/blob/master/docs/swupd.1.rst#files).
 
 ## How to use
 Install dependencies
