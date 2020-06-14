@@ -37,5 +37,8 @@ download:
 	make make_init
 	$(GCC) ./download.sh
 
+help:
+	cat README.md
+
 make_init:
 	chmod +x ./*.sh
