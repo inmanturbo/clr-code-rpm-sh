@@ -29,10 +29,10 @@ Success. Rpm packages can be removed with 'rpm -e [release]'
 Do you want to configure swupd to whitelist this package?
 1) Yes
 2) No
-#? 
+#?
 ````
 
-Check latest version with optional update/install
+Check for an update with optional update/install
 ```bash
 make
 ```
@@ -40,7 +40,7 @@ Also (alias)
 ```bash
 make check
 ```
-Fetch latest and update or install (do not bother checking or whitelisting, runs with no interaction)
+Fetch latest and update or install (do not bother checking or whitelisting, runs with no interaction)[You Could run this on a cron job]
 
 ```bash
 sudo make fetch
