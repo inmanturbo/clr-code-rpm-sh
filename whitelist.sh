@@ -5,7 +5,7 @@
 if [[ $(id -u) -ne 0 ]] ; then echo "Please run as root" ; exit 1 ; fi
 
 #prepare whitelist
-WHITELIST="/user/share/applications/code-url-handler.desktop|/usr/share/applications/code.desktop|/usr/share/bash-completion/completions/code|/usr/share/code|/usr/share/code/|/usr/bin/code";
+WHITELIST="/usr/lib/modules|/usr/lib/kernel|/usr/local|/usr/src|/user/share/applications/code-url-handler.desktop|/usr/share/applications/code.desktop|/usr/share/bash-completion/completions/code|/usr/share/code|/usr/share/code/|/usr/bin/code";
 SWUP_DIR=/etc/swupd;
 CONFIG="${SWUP_DIR}/config";
 if test -f "${CONFIG}"; then
