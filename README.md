@@ -2,8 +2,6 @@
 
 ### A collection of simple bash scripts tied together with make, very easy to run.
 
-## Includes script for adding it to swupd's "whitelist".
-
 ## How to use
 Install dependencies
 ```bash
