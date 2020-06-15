@@ -1,4 +1,4 @@
-# Install and update vscode native on clear linux using rpm.
+# Install and update vscode native on clear linux using supported tarball.
 
 ### A collection of simple bash scripts tied together with make, very easy to run.
 
@@ -7,30 +7,18 @@
 ## How to use
 Install dependencies
 ```bash
-sudo swupd bundle-add package-utils wget jq make
+sudo swupd bundle-add wget jq make
 ```
 
 Clone this repo.
 
 ```bash
-git clone https://github.com/inmanturbo/clr-code-rpm-sh.git
+git clone https://github.com/inmanturbo/clr-code-tar-sh.git
 ```
 Change directory
 ```bash
 cd clr-code-rpm-sh/
 ```
-
-Install VsCode and build whitelist for swupd [optional]
-```bash
-sudo make install
-```
-````
-Success. Rpm packages can be removed with 'rpm -e [release]'
-Do you want to configure swupd to whitelist this package?
-1) Yes
-2) No
-#?
-````
 
 Check for an update with optional update/install
 ```bash
@@ -60,10 +48,6 @@ make clean
 Uninstall
 ```bash
 sudo make remove
-```
-Whitelist only
-```bash
-sudo make whitelist
 ```
 
 
