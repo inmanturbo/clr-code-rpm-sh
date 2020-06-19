@@ -42,7 +42,7 @@ else
     echo "Do you want to install ${LATEST_VERSION}"
 select yn in "Yes" "No"; do
     case $yn in
-        Yes ) echo "Elevating with sudo! Interrupt now to cancel!"; sleep 2; sudo ./fetch.sh; break;;
+        Yes ) ./fetch.sh; break;;
         No ) exit;;
     esac
 done

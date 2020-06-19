@@ -65,7 +65,7 @@ if test -d /usr/local/bin ; then
     sudo unlink /usr/local/bin/code;
     echo "symlinking . . ."
     echo "Entering sudo mode . . ."
-    sudo ln -sv ~/.VSCode-linux-x64/bin/code /usr/local/bin
+    sudo -s ln -sv ~/.VSCode-linux-x64/bin/code /usr/local/bin
     else
         echo "/usr/local/bin does not exist, Creating . . ."
         echo "Entering sudo mode . . ."
