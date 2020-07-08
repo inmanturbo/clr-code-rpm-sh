@@ -1,4 +1,5 @@
-# Install and update vscode native on clear linux using supported tarball.
+# Install and update vscode native on clear linux using supported tarball. 
+# Work in progress. Please review code before running from this branch!
 
 ### A collection of simple bash scripts tied together with make, very easy to run.
 
