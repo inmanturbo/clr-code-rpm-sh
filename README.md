@@ -18,6 +18,11 @@ Change directory
 cd clr-code-rpm-sh/
 ```
 
+Change branch
+```bash
+git switch tarball
+```
+
 Check for an update with optional update/install
 ```bash
 make
