@@ -24,10 +24,10 @@ LATEST_VERSION=${LATEST_VERSION_URL##*/};
 if [ "${LATEST_VERSION}" = "${CURRENT_VERSION}.rpm" ]; then
     echo "Already up to date";
     exit 1;
-else
+fi;
     echo "Latest version:" ${LATEST_VERSION};
     echo "Current version:" ${CURRENT_VERSION};
-fi;
+
 echo "Downloading . . ."
 
 wget -c ${LATEST_VERSION_URL} -O code-stable-latest.rpm;
