@@ -12,7 +12,7 @@ sudo swupd bundle-add wget jq make
 Clone this repo.
 
 ```bash
-git clone https://github.com/inmanturbo/clr-code-tar-sh.git
+git clone https://github.com/inmanturbo/clr-code-rm-sh.git
 ```
 Change directory
 ```bash
@@ -35,11 +35,11 @@ make check
 Fetch latest and update or install (do not bother checking or whitelisting, runs with no interaction)[You Could run this on a cron job]
 
 ```bash
-sudo make fetch
+make fetch
 ```
 Also (alias)
 ```bash
-sudo make update
+make update
 ```
 Download latest version
 ```bash
